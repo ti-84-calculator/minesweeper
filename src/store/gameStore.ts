@@ -14,7 +14,7 @@ import { Coords, Difficulty } from '../utils/constants';
 
 export type GameStatus = 'starting' | 'playing' | 'win' | 'lose';
 
-const initialDifficultyLevel = 'beginner' as Difficulty;
+const initialDifficultyLevel = 'intermediate' as Difficulty;
 
 export type GameState = {
   status: GameStatus;
